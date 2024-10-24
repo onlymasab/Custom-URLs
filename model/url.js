@@ -9,7 +9,6 @@ const urlSchema = new mongoose.Schema({
     redirectUrl: {
         type: String,
         required: true,
-        uinque: true,
     },
     visitHistory: [
         {
