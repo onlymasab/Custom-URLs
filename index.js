@@ -33,7 +33,7 @@ app.get('/:shortId', async (req, res) => {
                     } 
                 } 
             },
-            { new: true } // Return the updated document
+            { new: true } // Return the updated documents
         );
 
         // If no entry is found, send a 404 response
