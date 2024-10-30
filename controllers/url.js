@@ -22,6 +22,8 @@ async function handleGenerateNewShortUrl(req, res) {
     console.log("Generated Short ID:", shortId);
     console.log("Original URL:", url);
 
+    
+
     try {
         // Insert new document into MongoDB
         await URL.create({
